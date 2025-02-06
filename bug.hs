@@ -1,0 +1,1 @@
+This Haskell code attempts to perform an unsafe operation within a `do` block, leading to potential runtime errors. The specific problem lies in the use of `unsafePerformIO` within a monadic context.
