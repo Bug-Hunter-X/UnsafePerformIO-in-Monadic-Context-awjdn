@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Haskell programming involving the misuse of `unsafePerformIO`.  The `bug.hs` file contains code that improperly uses `unsafePerformIO` within a `do` block, resulting in unpredictable behavior and potential crashes. The `bugSolution.hs` file offers a corrected version, emphasizing safe and deterministic programming practices.
